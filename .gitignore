@@ -1,0 +1,28 @@
+# Frozen Lovable reference. It has its own .git and may hold live credentials (PD-02).
+Frontend/
+
+# Environment files. Only the placeholder example is tracked.
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# Test output
+coverage
+test-results
+playwright-report
+
+# Supabase CLI state
+supabase/.temp
+supabase/.branches
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
